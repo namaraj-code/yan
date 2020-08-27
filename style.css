@@ -1,0 +1,53 @@
+@font-face{
+    font-family: "chiller"
+}
+
+*{box-sizing: border-box;
+    color: #777;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+     padding: 0;
+     color: white;
+}
+.main-nav{
+    text-align: center;
+    font-size:1.11em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255, .3)
+}
+.nav a:hover{
+    background-color: rgba(255,255,255, .3);
+    
+}
+.main-header{
+    background-image: url(images/fb.png);
+    background-size: cover;
+    background-color: black, .0;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+
+} 
+bond-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:normal;
+    color:white;  
+
+}
+bond-name-large{
+    font-size: 8em;
+}
